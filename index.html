@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Main Page | Global Math</title>
+        <meta charset="UTF-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="description" content="Meta Description" />
+        <!-- <style>body{opacity: 0;}</style> -->
+        <link rel="stylesheet" href="css/style.min.css?_v=20240512114606" />
+        <link rel="shortcut icon" href="favicon.ico" />
+        <!-- <meta name="robots" content="noindex, nofollow"> -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <div id="form-message" aria-hidden="true" class="popup">
+                <div class="popup__wrapper">
+                    <div class="popup__content">
+                        <button data-close type="button" class="popup__close">
+                            <svg
+                                width="23"
+                                height="23"
+                                viewBox="0 0 23 23"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    opacity="0.850056"
+                                    d="M1.73333 1.48883L21.5469 21.0288"
+                                    stroke="#979797"
+                                    stroke-linecap="square" />
+                                <path
+                                    opacity="0.850056"
+                                    d="M21.2667 1.48883L1.45309 21.0288"
+                                    stroke="#979797"
+                                    stroke-linecap="square" />
+                            </svg>
+                        </button>
+                        <div class="popup__text">Form successfully submitted!</div>
+                    </div>
+                </div>
+            </div>
+            <header class="header">
+                <div class="header__container">
+                    <div class="header__menu menu">
+                        <a href="index.html">
+                            <img src="img/logo.svg" alt="logo" />
+                        </a>
+                        <nav class="menu__body">
+                            <ul class="menu__list">
+                                <li class="menu__item">
+                                    <a href="index.html" class="menu__link menu__link_active"
+                                        >Home</a
+                                    >
+                                </li>
+                                <li class="menu__item">
+                                    <a href="features.html" class="menu__link">Features</a>
+                                </li>
+                                <li class="menu__item dropdown">
+                                    <a href="pages.html" class="menu__link"
+                                        >Pages
+                                        <svg
+                                            width="8"
+                                            height="6"
+                                            viewBox="0 0 8 6"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M0.94 0.5L4 3.59299L7.06 0.5L8 1.45687L4 5.5L0 1.45687L0.94 0.5Z"
+                                                fill="currentColor" />
+                                        </svg>
+                                    </a>
+                                    <ul class="dropdown__menu">
+                                        <li>
+                                            <a href="free-advertising.html"
+                                                >Free advertising for your online business</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a href="improve-design-skills.html"
+                                                >9 simple ways to improve your design skills</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a href="coding-speed-tips.html"
+                                                >Tips to quickly improve your coding speed</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a href="social-media-strategies.html"
+                                                >Effective Social Media Strategies for Small
+                                                Businesses</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a href="email-marketing-tips.html"
+                                                >The Power of Email Marketing: Tips for Success</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a href="seo-guide.html"
+                                                >Mastering SEO: A Guide for Beginners</a
+                                            >
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="menu__item">
+                                    <a href="support.html" class="menu__link">Support</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="header__btns">
+                            <a
+                                href="#"
+                                data-goto="#contact"
+                                class="header__btn"
+                                aria-label="go to contact section"
+                                ><svg
+                                    width="10"
+                                    height="9"
+                                    viewBox="0 0 10 9"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M3.28672 4.82432C1.96348 4.82432 0.886719 3.74757 0.886719 2.42432C0.886719 1.10108 1.96348 0.0243225 3.28672 0.0243225C4.60996 0.0243225 5.68672 1.10108 5.68672 2.42432C5.68672 3.74757 4.60996 4.82432 3.28672 4.82432ZM3.28672 0.672971C2.32088 0.672971 1.53537 1.45848 1.53537 2.42432C1.53537 3.39016 2.32088 4.17567 3.28672 4.17567C4.25256 4.17567 5.03807 3.39016 5.03807 2.42432C5.03807 1.45848 4.25256 0.672971 3.28672 0.672971Z"
+                                        fill="currentColor" />
+                                    <path
+                                        d="M6.65967 8.65135H6.01102C6.01102 7.18476 4.81816 5.9919 3.35157 5.9919C1.88497 5.9919 0.692106 7.18476 0.692106 8.65135H0.043457C0.043457 6.82735 1.52757 5.34325 3.35157 5.34325C5.17557 5.34325 6.65967 6.82735 6.65967 8.65135Z"
+                                        fill="currentColor" />
+                                    <path
+                                        d="M9.09944 2.42432H7.11328V3.07297H9.09944V2.42432Z"
+                                        fill="currentColor" />
+                                    <path
+                                        d="M9.0995 4.59989H6.33496V5.24854H9.0995V4.59989Z"
+                                        fill="currentColor" />
+                                    <path
+                                        d="M9.09961 6.83514H7.42285V7.48379H9.09961V6.83514Z"
+                                        fill="currentColor" />
+                                </svg>
+                                <span class="sr-only">go to contact</span> <span>Request</span></a
+                            >
+                            <button type="button" class="menu__icon icon-menu">
+                                <span></span> <span class="sr-only">menu button</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <main class="page">
+                <section class="hero">
+                    <div class="hero__container">
+                        <div class="hero__wrapper">
+                            <div class="hero__content">
+                                <h1 class="hero__title">
+                                    Global Math Systems provides the edge you need to stay ahead of
+                                    the competition
+                                </h1>
+                                <p class="hero__descr">
+                                    Our models are also capable of predicting future outcomes with
+                                    greater accuracy than traditional methods. Get the edge you need
+                                    with Global Math Systems' advanced MATH models today!
+                                </p>
+                                <div class="hero__cta" data-da=".hero__container, 920, 1">
+                                    <a href="#" data-goto="#contact" class="hero__cta-btn"
+                                        >Contact Now</a
+                                    >
+                                    <div class="hero__cta-descr">
+                                        <p>
+                                            Write us
+                                            <a href="mailto:info@globalmath.limited"
+                                                >info@globalmath.limited</a
+                                            >
+                                        </p>
+                                        <span>For any question or concern</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hero__img">
+                                <img src="img/hero.webp" alt="hero" />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="benefits">
+                    <div class="benefits__container">
+                        <div class="benefits__wrapper">
+                            <div class="benefits__item">
+                                <div class="benefits__icon">
+                                    <img src="img/icons/icon-1.svg" alt="icon" />
+                                </div>
+                                <div class="benefits__content">
+                                    <h2 class="benefits__heading">Math models for stock quotes</h2>
+                                    <p class="benefits__descr">
+                                        With the development of math models for predicting stock
+                                        quotes, investors can now make better decisions regarding
+                                        their investments. These models are based on complex
+                                        mathematical algorithms that take into account various
+                                        factors such as company financials, market news, and
+                                        economic indicators. By using these models, investors can
+                                        accurately predict the future direction of a stock and make
+                                        informed decisions about when to buy or sell it.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="benefits__item">
+                                <div class="benefits__icon">
+                                    <img src="img/icons/icon-2.svg" alt="icon" />
+                                </div>
+                                <div class="benefits__content">
+                                    <h2 class="benefits__heading">
+                                        Math models for management of investment portfolios
+                                    </h2>
+                                    <p class="benefits__descr">
+                                        In this modern age, accuracy and precision are essential for
+                                        businesses to stay ahead of their competition. To help you
+                                        achieve this, our models are based on the cutting-edge
+                                        technologies such as artificial intelligence and machine
+                                        learning to provide you with the most accurate results.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="benefits__item">
+                                <div class="benefits__icon">
+                                    <img src="img/icons/icon-3.svg" alt="icon" />
+                                </div>
+                                <div class="benefits__content">
+                                    <h2 class="benefits__heading">
+                                        Math models for investment in crypto-tokens
+                                    </h2>
+                                    <p class="benefits__descr">
+                                        Investing in crypto-tokens can be a risky business, and it
+                                        is important to make sure that you are making the right
+                                        decisions. That's why the development of math models for
+                                        optimal investment in crypto-tokens is so important. These
+                                        models help investors analyze the data and make educated
+                                        decisions about which tokens to invest in. They also provide
+                                        insights into how different tokens will perform over time,
+                                        allowing investors to make more informed decisions about
+                                        their investments. With the help of these models, investors
+                                        can maximize their returns on their investments while
+                                        minimizing risks.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="why">
+                    <div class="why__container">
+                        <div class="why__wrapper">
+                            <div class="why__img">
+                                <div class="why__left">
+                                    <img src="img/left-1.webp" alt="why-1" />
+                                    <img src="img/left-2.webp" alt="why-2" />
+                                </div>
+                                <div class="why__right">
+                                    <img src="img/right-1.webp" alt="why-3" />
+                                </div>
+                            </div>
+                            <div class="why__content">
+                                <h2 class="why__heading">Why Choose Us</h2>
+                                <p class="why__descr">
+                                    We understand that every business has its own unique needs and
+                                    goals. That's why we offer a wide range of services to help you
+                                    achieve those goals. Our team of experts will work with you to
+                                    create custom solutions tailored to your specific needs. We
+                                    specialize in creating innovative strategies that are designed
+                                    to maximize efficiency, increase ROI, and help you reach your
+                                    desired outcomes. With our experienced professionals and
+                                    extensive resources, we can provide the perfect solution for any
+                                    challenge you may face.
+                                </p>
+                                <div class="why__cta">
+                                    <a href="#" class="why__btn">
+                                        <img src="img/why-play.svg" alt="play" />
+                                    </a>
+                                    <p class="why__cta-text">SEE HOW WE WORK</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="counter">
+                    <div class="counter__top"></div>
+                    <div class="counter__container">
+                        <div class="counter__top-decor"></div>
+                    </div>
+                    <div class="counter__bottom">
+                        <div class="counter__container">
+                            <div class="counter__wrapper">
+                                <div class="counter__item">
+                                    <div class="counter__number">785</div>
+                                    <div class="counter__descr">Predictive campaigns</div>
+                                </div>
+                                <div class="counter__item">
+                                    <div class="counter__number">533</div>
+                                    <div class="counter__descr">Happy Clients</div>
+                                </div>
+                                <div class="counter__item">
+                                    <div class="counter__number">865</div>
+                                    <div class="counter__descr">Own algorithms</div>
+                                </div>
+                                <div class="counter__item">
+                                    <div class="counter__number">346</div>
+                                    <div class="counter__descr">Peers on the run</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="contact" id="contact">
+                    <div class="contact__container">
+                        <h2 class="contact__title">Let’s Stay Connected</h2>
+                        <p class="contact__subtitle">
+                            It is a long established fact that a reader will be distracted by the
+                            readable content of a page when looking at its layout. The point of
+                            using.
+                        </p>
+                        <div class="contact__wrapper">
+                            <div class="contact__address">
+                                <h3 class="contact__heading">Email Address</h3>
+                                <p class="contact__text">info@globalmath.limited</p>
+                                <h3 class="contact__heading">Office Location</h3>
+                                <p class="contact__text">
+                                    Address: Bucuresti Sector 2, <br />
+                                    Calea MOSILOR, Nr. 158, Camera <br />
+                                    4, Modul 154, Etaj 4
+                                </p>
+                                <div class="separator"></div>
+                                <h3 class="contact__heading">Social Media</h3>
+                            </div>
+                            <form
+                                class="contact__form"
+                                action="files/sendmail/sendmail.php"
+                                method="POST"
+                                data-popup-message="#form-message"
+                                data-dev>
+                                <div class="form__line">
+                                    <div>
+                                        <label for="name">Full Name</label>
+                                        <input
+                                            type="text"
+                                            id="name"
+                                            name="name"
+                                            data-error="Incorrect name"
+                                            data-required
+                                            placeholder="Devid Wonder " />
+                                    </div>
+                                    <div>
+                                        <label for="email">Email address</label>
+                                        <input
+                                            type="email"
+                                            id="email"
+                                            name="email"
+                                            data-required="email"
+                                            data-error="Incorrect email"
+                                            placeholder="example@gmail.com " />
+                                    </div>
+                                </div>
+                                <div class="form__line">
+                                    <div>
+                                        <label for="phone">Phone number</label>
+                                        <input
+                                            type="text"
+                                            name="phone"
+                                            id="phone"
+                                            placeholder="+0093342 3432 " />
+                                    </div>
+                                    <div>
+                                        <label for="subject">Subject</label>
+                                        <input
+                                            name="subject"
+                                            id="subject"
+                                            type="text"
+                                            placeholder="Type your subject " />
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <label for="message">Message</label>
+                                    <textarea
+                                        name="message"
+                                        id="message"
+                                        placeholder="Message"></textarea>
+                                </div>
+
+                                <button class="form-btn" type="submit">Contact Now</button>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+                <div class="tagline">
+                    <div class="tagline__container">
+                        <h2 class="tagline__title">
+                            Join with 5000+ Clients <br />
+                            Growing with Globalmath.
+                        </h2>
+                    </div>
+                </div>
+            </main>
+            <footer class="footer">
+                <div class="footer__container">
+                    <div class="footer__wrapper">
+                        <div class="nav">
+                            <ul class="footer__list">
+                                <li class="footer__link"><a href="#">English</a></li>
+                                <li class="footer__link"><a href="#">Privacy Policy</a></li>
+                                <li class="footer__link"><a href="support.html">Support</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__copy">
+                            © 2023 Globalmath Limited. All rights reserved
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <script src="js/app.min.js?_v=20240512114606"></script>
+    </body>
+</html>
